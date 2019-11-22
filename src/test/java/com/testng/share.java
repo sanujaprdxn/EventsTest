@@ -19,7 +19,7 @@ public class share
 		ChromeOptions.addArguments("--headless"); 
 		WebDriver driver = new ChromeDriver(ChromeOptions);
 		driver.get("http://prdxnstaging.com/events/");
-		System.out.println("Opening Browser");
+		System.out.println("Opening Browser Successfully");
 		driver.close();
 	}
 }
