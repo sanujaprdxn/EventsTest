@@ -31,7 +31,7 @@ public class Brochure_Form {
 		String actualname = "DOWNLOAD BROCHURE";
 		System.out.println(""+actualname);
 		if(formname.equals(actualname)) {
-			System.out.println("Brochure form is opened");
+			System.out.println("Brochure form is opened test case is passed");
 		}else {
 			System.out.println("Brochure form not opened");
 		}
