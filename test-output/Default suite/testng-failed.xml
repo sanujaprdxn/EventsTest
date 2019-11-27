@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testng.share">
+      <class name="com.testng.Brochure_Form">
         <methods>
-          <include name="demoFunction"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- com.testng.share -->
+      </class> <!-- com.testng.Brochure_Form -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
