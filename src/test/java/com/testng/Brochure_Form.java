@@ -25,8 +25,9 @@ public class Brochure_Form {
       element.click();
 		String pagetitle = driver.getTitle();
 		System.out.println("" +pagetitle );	
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		String formname = driver.findElement(By.xpath("//div/h4[@class='after-success' and text()='Download Brochure']")).getText();
+//		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		 WebElement demo = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div/h4[@class='after-success' and text()='Download Brochure']")));
+		String formname = demo.getText();
 		System.out.println(""+formname);
 		String actualname = "DOWNLOAD BROCHURE";
 		System.out.println(""+actualname);
