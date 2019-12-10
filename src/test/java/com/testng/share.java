@@ -20,7 +20,7 @@ public class share
 		ChromeOptions.addArguments("--headless"); 
 		WebDriver driver = new ChromeDriver(ChromeOptions);
 		driver.get("http://prdxnstaging.com/events/");
-		System.out.println("Opening Browser Successfully test case pass");
+		System.out.println("Opening Browser");
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//*[contains (text(), 'WAR ON CANCER 2016')]")).click();
 		String Actualeventtitle = driver.getTitle();
