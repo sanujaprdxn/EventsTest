@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65025" started-at="2019-11-27T13:29:52Z" finished-at="2019-11-27T13:30:57Z">
+  <suite name="Default suite" duration-ms="24577" started-at="2019-12-10T07:27:52Z" finished-at="2019-12-10T07:28:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65025" started-at="2019-11-27T13:29:52Z" finished-at="2019-11-27T13:30:57Z">
-      <class name="com.testng.Brochure_Form">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.testng.Brochure_Form@6fd02e5]" name="f" duration-ms="64886" started-at="2019-11-27T18:59:52Z" finished-at="2019-11-27T19:00:57Z">
+    <test name="Default test" duration-ms="24577" started-at="2019-12-10T07:27:52Z" finished-at="2019-12-10T07:28:16Z">
+      <class name="com.testng.share">
+        <test-method status="PASS" signature="demoFunction()[pri:0, instance:com.testng.share@6fd02e5]" name="demoFunction" duration-ms="24507" started-at="2019-12-10T12:57:52Z" finished-at="2019-12-10T12:58:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.testng.Brochure_Form -->
+        </test-method> <!-- demoFunction -->
+      </class> <!-- com.testng.share -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
